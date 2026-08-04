@@ -1,0 +1,13 @@
+[project]
+name = "ai-travel-agent"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "gradio>=6.22.0",
+    "langchain>=1.3.14",
+    "langchain-mcp-adapters>=0.3.1",
+    "langchain-openai>=1.4.1",
+    "langgraph>=1.2.10",
+    "pydantic>=2.13.4",
+    "python-dotenv>=1.2.2",
+]
